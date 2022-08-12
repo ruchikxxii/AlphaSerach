@@ -1,0 +1,98 @@
+
+p{
+  margin: 0;
+  padding: 0;
+}
+footer{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 2%;
+}
+body{
+  background: url("images/2637581.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.alphaimg{
+  width: 10%;
+}
+.heading{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  padding-top: 5%;
+}
+.seacrh{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.engine{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: #06283D;
+  color: white;
+  border-radius: 10%;
+  padding: 0 3%;
+  margin-right: 2%;
+}
+.searchbar{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 1.5rem;
+  width: 40vw;
+  height: 2.8rem;
+}
+.searchimg{
+  width: 3%;
+  margin-left: 2%;
+}
+.searchimg:hover{
+  width: 4%;
+}
+.engine-logo{
+  width: 2rem;
+  padding-left: 1%;
+  margin-top: 3%;
+}
+
+.rules{
+  padding-top: 4%;
+  text-align: center;
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 2rem;
+}
+.code{
+  font-family: 'Roboto Mono', monospace;
+  color:#BDF2D5;
+  display:inline-block;
+  padding-right:2%;
+}
+
+@media (max-width: 400px){
+  .heading{
+    font-size: 3.5rem;
+    padding-top: 30%;
+  }
+  .engine{
+    font-size: 2rem;
+  }
+  .searchbar{
+    font-size: 3rem;
+    height: 7rem;
+  }
+  .searchimg{
+    width: 10%;
+  }
+  .footer{
+    font-size: 2.5rem;
+  }
+}
